@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // import TabsApp from './projects/Tabs';
 // import SliderApp from './projects/Slider';
 // import ColorGenerator from './projects/Color-generator';
-import GroceryApp from './projects/Grocery-buds';
+// import GroceryApp from './projects/Grocery-buds';
+import NavbarApp from './projects/Navbar';
 // import MenuApp from './projects/Menu';
 // import ToursApp from './projects/Tours/Tours';
 // import ReviewApp from './projects/Reviews';
@@ -21,8 +22,9 @@ root.render(
     <ToursApp />
     <TabsApp />
     <SliderApp />
-    <ColorGenerator /> */}
-    <GroceryApp />
+    <ColorGenerator />
+    <GroceryApp /> */}
+    <NavbarApp />
   </React.StrictMode>
 );
 
