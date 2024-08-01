@@ -58,6 +58,8 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   font-size: 0.875rem;
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-9);
 }
 ul {list-style-type: none;}
 a {text-decoration: none;}
