@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import AccordionApp from './projects/Accordion';
 import reportWebVitals from './reportWebVitals';
+// import TabsApp from './projects/Tabs';
+// import SliderApp from './projects/Slider';
+import ColorGenerator from './projects/Color-generator';
+// import MenuApp from './projects/Menu';
+// import ToursApp from './projects/Tours/Tours';
+// import ReviewApp from './projects/Reviews';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
+    <ReviewApp />
+    <AccordionApp />
+    <MenuApp />
+    <ToursApp />
+    <TabsApp />
+    <SliderApp /> */}
+    <ColorGenerator />
   </React.StrictMode>
 );
 

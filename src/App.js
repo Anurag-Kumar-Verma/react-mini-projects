@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import List from './List';
+import { data } from './data';
 
 function App() {
+  const [people, setPeople] = useState(data);
+  function toggleList(){
+    if(people.length > 0){setPeople([])} else setPeople(data);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section className='container'>
+        <h3>{people.length} Birthdays Today</h3>
+        <List people={people} />
+        <button onClick={() => toggleList()}>{people.length > 0 ? 'Clear All' : 'Retrive Data'}</button>
+      </section>
+    </main>
   );
 }
 
