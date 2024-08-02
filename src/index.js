@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import ColorGenerator from './projects/Color-generator';
 // import GroceryApp from './projects/Grocery-buds';
 // import NavbarApp from './projects/Navbar';
-import SidbarModalApp from './projects/Sidebar-modal';
+// import SidbarModalApp from './projects/Sidebar-modal';
+import StripeSubmenuApp from './projects/Stripe-submenus';
 // import MenuApp from './projects/Menu';
 // import ToursApp from './projects/Tours/Tours';
 // import ReviewApp from './projects/Reviews';
@@ -25,8 +26,9 @@ root.render(
     <SliderApp />
     <ColorGenerator />
     <GroceryApp />
-    <NavbarApp /> */}
-    <SidbarModalApp />
+    <NavbarApp />
+    <SidbarModalApp /> */}
+    <StripeSubmenuApp />
   </React.StrictMode>
 );
 
