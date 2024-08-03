@@ -1,5 +1,5 @@
 :root{--max-width: 1170px;--fixed-width: 620px;}
-body {background: var(--clr-grey-10); color: var(--clr-grey-9);}
+body {background: var(--clr-grey-10); color: var(--clr-grey-1);}
 .menu {padding: 1rem 0;}
 .title {text-align: center;margin-bottom: 2rem;}
 .underline {
