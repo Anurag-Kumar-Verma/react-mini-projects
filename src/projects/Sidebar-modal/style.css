@@ -60,7 +60,7 @@ main {
 .modal-container {
   background: var(--clr-white);
   border-radius: var(--radius);
-  width: 90vw;
+  width: var(--small-screen-width);
   height: 30vh;
   max-width: var(--fixed-width);
   text-align: center;

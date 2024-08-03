@@ -8,7 +8,7 @@ body {
 .jobs-center {
   width: 80vw;
   margin: 0 auto;
-  max-width: var(--max-width);
+  max-width: var(--large-screen-width);
 }
 .btn-container {
   display: flex;
@@ -95,7 +95,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .jobs-center {
-    width: 90vw;
+    width: var(--small-screen-width);
     display: grid;
     grid-template-columns: 200px 1fr;
     column-gap: 4rem;

@@ -8,8 +8,8 @@
   z-index: 1;
 }
 .nav-center {
-  width: 90vw;
-  max-width: var(--max-width);
+  width: var(--small-screen-width);
+  max-width: var(--large-screen-width);
 }
 .nav-header {
   display: flex;
@@ -61,7 +61,7 @@
   transform: scale(1);
 }
 .sidebar {
-  width: 90vw;
+  width: var(--small-screen-width);
   height: 95vh;
   max-width: var(--fixed-width);
   background: var(--clr-white);
@@ -183,8 +183,8 @@
   justify-items: center;
 }
 .hero-center {
-  width: 90vw;
-  max-width: var(--max-width);
+  width: var(--small-screen-width);
+  max-width: var(--large-screen-width);
   display: grid;
   align-items: center;
 }

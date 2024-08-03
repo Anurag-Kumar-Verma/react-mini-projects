@@ -8,11 +8,7 @@ body {
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
-  --transition: all 0.3s linear;
   --spacing: 0.25rem;
-  --radius: 0.25rem;
-  --large-screen-width: 1170px;
-  --small-screen-width: 90vw;
   --fixed-width: 50rem;
   background-color: var(--clr-grey-10);
   color: var(--clr-grey-1);
@@ -56,16 +52,16 @@ nav h3 {
   margin: 5px 0;
 }
 nav svg {
-  width: 2rem;
+  width: 1.5rem;
   fill: var(--clr-white);
 }
 .amount-container {
   position: absolute;
-  top: -0.85rem;
-  right: -0.85rem;
-  width: 1.75rem;
-  height: 1.75rem;
-  border-radius: 50%;
+  top: -0.75rem;
+  right: -0.75rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  border-radius: 50vw;
   background: var(--clr-primary-light);
   display: flex;
   align-items: center;
@@ -73,14 +69,13 @@ nav svg {
 }
 .total-amount {
   color: var(--clr-white);
-  font-size: 1.25rem;
+  font-size: 0.8rem;
 }
 /* cart */
 .cart {
   min-height: calc(100vh - 120px);
-  width: 90vw;
+  width: var(--small-screen-width);
   margin: 0 auto;
-  margin-top: 40px;
   padding: 2.5rem 0;
   max-width: var(--fixed-width);
 }

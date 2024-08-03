@@ -10,7 +10,7 @@ main {
 }
 
 .container {
-  width: 90vw;
+  width: var(--small-screen-width);
   margin: 5rem auto;
   background: var(--clr-white);
   border-radius: var(--radius);

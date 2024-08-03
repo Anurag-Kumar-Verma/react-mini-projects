@@ -1,36 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import AccordionApp from './projects/Accordion';
 import reportWebVitals from './reportWebVitals';
-// import TabsApp from './projects/Tabs';
-// import SliderApp from './projects/Slider';
-// import ColorGenerator from './projects/Color-generator';
-// import GroceryApp from './projects/Grocery-buds';
-// import NavbarApp from './projects/Navbar';
-// import SidbarModalApp from './projects/Sidebar-modal';
-// import StripeSubmenuApp from './projects/Stripe-submenus';
-import CartApp from './projects/Cart';
-// import MenuApp from './projects/Menu';
-// import ToursApp from './projects/Tours/Tours';
-// import ReviewApp from './projects/Reviews';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App />
-    <ReviewApp />
-    <AccordionApp />
-    <MenuApp />
-    <ToursApp />
-    <TabsApp />
-    <SliderApp />
-    <ColorGenerator />
-    <GroceryApp />
-    <NavbarApp />
-    <SidbarModalApp />
-    <StripeSubmenuApp /> */}
-    <CartApp />
+    <App />
   </React.StrictMode>
 );
 

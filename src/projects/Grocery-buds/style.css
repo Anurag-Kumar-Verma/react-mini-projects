@@ -16,7 +16,7 @@
   align-items: center;
   text-align: center;
   font-size: 0.7rem;
-  border-radius: 0.25rem;
+  border-radius: var(--radius);
   letter-spacing: var(--spacing);
   text-transform: capitalize;
 }
